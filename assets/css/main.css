@@ -3284,7 +3284,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		color: #ffffff;
+		color: #f1c232;
 		padding: 8rem 4rem 6rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3477,11 +3477,13 @@ input, select, textarea {
 					font-size: 3.25rem;
 					line-height: 1.1;
 					margin-bottom: 1rem;
+					color: aquamarine;
 				}
 
 				#intro p {
 					font-size: 1rem;
 					margin-top: 0rem;
+					color: aquamarine;
 				}
 
 				#intro .actions {
@@ -3722,7 +3724,7 @@ input, select, textarea {
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					background-color: #f1c232;
 				}
 
 					#nav ul.links li.active a {
