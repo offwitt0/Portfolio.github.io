@@ -4222,12 +4222,12 @@ input, select, textarea {
 
 				#footer > section.split > section {
 					padding: 3rem 4rem 1rem 4rem ;
-					border-top: solid 2px #e2e2e2;
+					border-top: solid 4px #212931;
 				}
 
 					#footer > section.split > section:first-child {
 						padding: 5rem 4rem 1rem 4rem ;
-						border-top: 0;
+						border-top: solid 4px #212931;
 					}
 
 					#footer > section.split > section:last-child {
@@ -4259,7 +4259,7 @@ input, select, textarea {
 						-webkit-flex-grow: 0;
 						-ms-flex-grow: 0;
 						flex-grow: 0;
-						width: 6rem;
+						width: 10rem;
 					}
 
 					#footer > section.split.contact > section > :last-child {
@@ -4387,7 +4387,7 @@ input, select, textarea {
 	#copyright {
 		color: #ffffff;
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		color: rgba(255, 255, 255, 0.5);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
