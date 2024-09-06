@@ -2955,7 +2955,7 @@ input, select, textarea {
 
 			header.major > p {
 				margin-top: 0;
-				text-align: center;
+				text-align: left;
 			}
 
 			header.major > .date {
@@ -4688,4 +4688,21 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	}
+
+
+	.logoup {
+		position: absolute;
+		border-radius:50%;
+		position: fixed; /* Change to fixed */
+		width:70px;
+		height:70px;
+		top: 20px;
+		left: 20px;
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+	}
+	
+	.logoup:hover {
+		transform: scale(1.2) rotate(10deg);
+		box-shadow: 0 0 10px rgba(255, 251, 1, 0.966);
 	}
